@@ -84,4 +84,4 @@ Implementation Steps:
 
 ## Folder Structure
 
-Folder Structure.png
+![Folder Structure](https://github.com/h3ll0clar1c3/CTF/raw/main/Folder%20Structure.png)
