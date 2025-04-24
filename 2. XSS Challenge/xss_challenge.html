@@ -1,0 +1,22 @@
+<!-- File: xss_challenge.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XSS Challenge</title>
+</head>
+<body>
+    <h1>Search the site</h1>
+    <form method="GET">
+        <input type="text" name="q" placeholder="Search">
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q');
+        if (query) {
+            document.write("Search results for: " + query);
+        }
+    </script>
+</body>
+</html>

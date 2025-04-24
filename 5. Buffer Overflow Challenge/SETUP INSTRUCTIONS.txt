@@ -1,0 +1,37 @@
+5. Buffer Overflow Challenge
+
+Description: 
+
+Exploit a buffer overflow in a C program to reveal the flag.
+
+Implementation Steps:
+
+1. Write a vulnerable C application.
+2. Compile the program with debugging symbols.
+
+Additional Setup Required:
+
+Compiled Binary (buffer_overflow):
+* Compile the C program using gcc with debug symbols enabled (e.g., gcc -o buffer_overflow buffer_overflow.c -g).
+* Provide the compiled binary to participants alongside the source code if necessary.
+
+
+Additional Info:
+
+Participants need a compiled binary and source code to test the buffer overflow. Below is a Makefile to compile the C program.
+
+CC=gcc
+CFLAGS=-g -fno-stack-protector -z execstack
+
+all: buffer_overflow
+
+buffer_overflow: buffer_overflow.c
+	$(CC) $(CFLAGS) -o buffer_overflow buffer_overflow.c
+	
+Implementation steps:
+
+1. Save the C program (buffer_overflow.c) and the Makefile in the same directory.
+2. Compile the program using:
+ 'make'
+3. Share the compiled binary (buffer_overflow) with participants.
+

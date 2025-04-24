@@ -1,0 +1,7 @@
+CC=gcc
+CFLAGS=-g -fno-stack-protector -z execstack
+
+all: buffer_overflow
+
+buffer_overflow: buffer_overflow.c
+	$(CC) $(CFLAGS) -o buffer_overflow buffer_overflow.c

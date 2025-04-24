@@ -1,0 +1,44 @@
+1. SQL Injection Challenge
+
+Description: 
+
+Create a web app with a login form vulnerable to SQL injection. The challenge is to extract a hidden flag from the database.
+
+Implementation Steps:
+
+1. Use Python with Flask to create a web application.
+2. Add a login form that directly concatenates user inputs into an SQL query.
+3. Store the flag in the database.
+
+Additional Setup Required:
+
+SQLite Database File (challenge.db):
+* This database must contain the users table and the flags table as described in the code.
+* You can initialize the database using the init_db() function provided in the code. Simply run the script once, and it will create the database for you.
+
+Additional Info:
+
+You need a database file (challenge.db) for this challenge. Below is the SQL script to create and populate the database.
+
+-- Initialize the challenge database
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY,
+    username TEXT,
+    password TEXT
+);
+
+CREATE TABLE flags (
+    id INTEGER PRIMARY KEY,
+    flag TEXT
+);
+
+-- Insert initial data
+INSERT INTO users (id, username, password) VALUES (1, 'admin', 'admin');
+INSERT INTO flags (id, flag) VALUES (1, 'CTF{sql_injection_flag}');
+
+Steps to Set Up:
+
+1. Save the script above as initialize_database.sql.
+2. Use SQLite to execute the script:
+   'sqlite3 challenge.db < initialize_database.sql'
+3. Ensure challenge.db is in the same directory as the Python script (sql_injection_app.py).

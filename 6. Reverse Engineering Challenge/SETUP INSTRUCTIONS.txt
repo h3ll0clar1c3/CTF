@@ -1,0 +1,32 @@
+6. Reverse Engineering Challenge
+
+Description: 
+
+Reverse engineer a binary to retrieve the flag.
+
+Implementation Steps:
+
+1. Write a C program that obfuscates the flag.
+2. Compile and provide the binary.
+
+Additional Setup Required:
+
+Compiled Binary (reverse_engineering):
+* Compile the C program with obfuscation (if desired) and provide the binary to participants.
+* Use a command like gcc reverse_engineering.c -o reverse_engineering.
+
+Additional Info:
+
+You need to obfuscate the binary for participants. Below is the obfuscated flag in Python.
+
+flag = "CTF{reverse_flag}"
+obfuscated_flag = [ord(c) + 3 for c in flag]  # Simple Caesar cipher
+print("Obfuscated flag:", obfuscated_flag)
+
+Steps to Set Up:
+
+1. Use the script above to generate an obfuscated flag list.
+2. Replace the flag in the C program (reverse_engineering.c) with the obfuscated list.
+3. Compile the program using:
+ 'gcc reverse_engineering.c -o reverse_engineering'
+4. Share the binary (reverse_engineering) with participants.

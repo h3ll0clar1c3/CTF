@@ -1,0 +1,29 @@
+4. Weak Encryption Challenge
+
+Description: 
+
+Break a weak XOR cipher to reveal the flag.
+
+Implementation Steps:
+
+1. Create a Python script to encrypt the flag with XOR.
+2. Provide the encrypted flag and key.
+
+Additional Setup Required:
+
+Encrypted Flag Output:
+* The script generates an "encrypted flag" as output. You should provide participants with the encrypted flag as the challenge input.
+Encryption Key:
+* You can include the encryption key in a separate file or as part of the challenge description (if you want to make the challenge solvable).
+
+Additional Info:
+
+The encrypted flag will be a simple text file. Below is an example file for participants.
+
+Encrypted flag: ¬ÖÔÜÆÓÔ×ÖÜÔ×ÉÊ
+
+Steps to Set Up:
+
+1. Use the provided encryption script (weak_encryption.py) to generate the encrypted flag.
+2. Save the output in encrypted_flag.txt.
+3. Share the file with participants, along with the challenge description.

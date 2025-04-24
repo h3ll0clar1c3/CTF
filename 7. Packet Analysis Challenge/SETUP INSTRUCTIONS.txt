@@ -1,0 +1,32 @@
+7. Packet Analysis Challenge
+
+Description: 
+
+Analyze a PCAP file to retrieve the flag.
+
+Implementation Steps:
+
+1. Use scapy to generate a PCAP file with HTTP data.
+2. Embed the flag in the HTTP payload.
+
+Additional Info:
+
+Generate the PCAP file using the script provided earlier. Below is a README file for participants.
+
+# Packet Analysis Challenge
+
+## Description
+Analyze the provided PCAP file (`challenge.pcap`) to retrieve the hidden flag. Use tools like Wireshark to inspect the network traffic.
+
+## Hints
+- Look for HTTP traffic in the capture.
+- The flag is embedded within the payload of one of the packets.
+
+## Tools
+- [Wireshark](https://www.wireshark.org)
+- [Scapy](https://scapy.net) (optional)
+
+Steps to Set Up:
+
+1. Run the PCAP generation script (generate_pcap.py) to produce challenge.pcap.
+2. Share the PCAP file and README.md with participants.

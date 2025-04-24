@@ -1,0 +1,22 @@
+2. XSS Challenge
+
+Description: 
+
+Participants must execute a reflected XSS payload to reveal the flag.
+
+Implementation Steps:
+
+1. Create an HTML page with a vulnerable search form.
+2. Display user input without sanitization.
+
+Additional Setup Required:
+
+* No additional setup is required. The code (HTML file) is standalone and only requires hosting on a web server (e.g., Apache, Nginx, or Python's http.server module).
+
+Additional Info:
+
+The XSS challenge is a static HTML file, so no additional setup is required. You can host it using Python's http.server module.
+
+ 'python -m http.server 8080'
+
+This will serve the directory containing xss_challenge.html on http://localhost:8080.
