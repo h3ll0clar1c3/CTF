@@ -71,7 +71,7 @@ Implementation Steps:
 2. Compile and provide the binary.
 
 
-** 7. Packet Analysis Challenge
+## 7. Packet Analysis Challenge
 
 Description: 
 
