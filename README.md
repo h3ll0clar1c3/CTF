@@ -77,6 +77,10 @@ Description:
 
 Analyze a PCAP file to retrieve the flag.
 
+## Folder Structure
+
+https://github.com/h3ll0clar1c3/CTF/blob/main/Folder%20Structure.png
+
 Implementation Steps:
 
 1. Use scapy to generate a PCAP file with HTTP data.
