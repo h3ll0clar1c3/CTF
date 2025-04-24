@@ -1,6 +1,4 @@
-# CTF Challenges:
-
-## 1. SQL Injection Challenge
+# 1. SQL Injection Challenge
 
 Description: 
 
@@ -13,7 +11,7 @@ Implementation Steps:
 3. Store the flag in the database.
 
 
-**2. XSS Challenge**
+## 2. XSS Challenge
 
 Description: 
 
@@ -25,7 +23,7 @@ Implementation Steps:
 2. Display user input without sanitization.
 
 
-**3. Steganography Challenge**
+## 3. Steganography Challenge
 
 Description: 
 
@@ -37,7 +35,7 @@ Implementation Steps:
 2. Save the image as the challenge file.
 
 
-**4. Weak Encryption Challenge**
+## 4. Weak Encryption Challenge
 
 Description: 
 
@@ -49,7 +47,7 @@ Implementation Steps:
 2. Provide the encrypted flag and key.
 
 
-**5. Buffer Overflow Challenge**
+## 5. Buffer Overflow Challenge
 
 Description: 
 
@@ -61,7 +59,7 @@ Implementation Steps:
 2. Compile the program with debugging symbols.
 
 
-**6. Reverse Engineering Challenge**
+## 6. Reverse Engineering Challenge
 
 Description: 
 
@@ -73,7 +71,7 @@ Implementation Steps:
 2. Compile and provide the binary.
 
 
-**7. Packet Analysis Challenge**
+** 7. Packet Analysis Challenge
 
 Description: 
 
